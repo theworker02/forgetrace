@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/forgetrace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Forge lightweight trace statistics from stdin samples.",
+  "bin": {
+    "forgetrace": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/forgetrace.git"
+  },
+  "homepage": "https://theworker02.github.io/forgetrace/",
+  "keywords": [
+    "forge",
+    "trace",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
